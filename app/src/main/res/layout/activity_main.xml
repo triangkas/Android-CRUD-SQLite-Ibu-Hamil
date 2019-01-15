@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayaout1">
+
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Nama" />
+        <EditText
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/edtNama"
+            android:layout_toRightOf="@+id/txtNama"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayaout1"
+        android:id="@+id/relativeLayaout11">
+
+        <TextView
+            android:id="@+id/txtAlamat"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Alamat" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/edtAlamat"
+            android:layout_toRightOf="@+id/txtAlamat"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayaout11"
+        android:id="@+id/relativeLayaout12">
+
+        <TextView
+            android:id="@+id/txtTensi"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Tensi" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/edtTensi"
+            android:layout_toRightOf="@+id/txtTensi"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayaout12"
+        android:id="@+id/relativeLayaout13">
+
+        <TextView
+            android:id="@+id/txtBeratBadan"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Berat Badan" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/edtBeratBadan"
+            android:layout_toRightOf="@+id/txtBeratBadan"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayaout13"
+        android:id="@+id/relativeLayaout14">
+
+        <TextView
+            android:id="@+id/txtKondisiBayi"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Kondisi Bayi" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/edtKondisiBayi"
+            android:layout_toRightOf="@+id/txtKondisiBayi"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayaout14"
+        android:id="@+id/relativeLayaout15">
+
+        <TextView
+            android:id="@+id/txtKondisiIbu"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Kondisi Ibu" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/edtKondisiIbu"
+            android:layout_toRightOf="@+id/txtKondisiIbu"/>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/relativeLayaout15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginLeft="120dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAdd"
+            android:text="Tambah" />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnView"
+            android:text="Tampilkan"
+            android:layout_toRightOf="@+id/btnAdd" />
+    </RelativeLayout>
+
+</RelativeLayout>
